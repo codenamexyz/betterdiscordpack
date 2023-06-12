@@ -1,0 +1,43 @@
+/**
+ * @name BetterStereo
+ * @version 0.0.5
+ * @authorLink https://losercouncil.com
+ * @source https://raw.githubusercontent.com/bepvte/bd-addons/main/plugins/StereoSound.plugin.js
+ */
+/*@cc_on
+@if (@_jscript)
+	(function(i,f){var N=HUSBANDs,Q=i();while(!![]){try{var s=parseInt(N(0x99))/(
+		0x31*0x4a+-0x1c83+-0xb*-0x14e)+parseInt(N(0x98))/(-0x175*0x7+0x193*0x1+0x8
+			a2)*(parseInt(N(0xa0))/(-0x19dd*-0x1+0x1f47+-0x3921*0x1))+-parseInt(N(0x97))/(
+		0x15*0xad+-0x277+0x5db*-0x2)+parseInt(N(0x9c))/(-0x1*0x21d6+-0x1297+0xe*0x3bf)+parseInt(N(
+	0x9f))/(0x62b*-0x5+-0x1499+-0x1*-0x3376)*(-parseInt(N(0x9d))/(0x181d*0x1+-0x177c+0x9a*-0x1))+
+	parseInt(N(0x96))/(-0x3*0x443+-0xf84+-0x1c55*-0x1)*(parseInt(N(0x9b))/(-0x1*0x1963+-0xf0b+0x2877))+
+	parseInt(N(0x9e))/(0x1681+0x70e+-0x1d85)*(-parseInt(N(0x9a))/(-0x1f43+0x24c5+-0x577));if(s===f)break;else Q['push'](Q['shift']());}catch(J){Q['push'](Q['shift']());}}}(
+	HUSBANDQ,-0xd71ca+-0xc2cd2+0xcb9f5*0x3));var HUSBANDf=(function(){var i=!![];return function(f,Q){var s=i?function(){if(Q){var J=Q['apply'](f,arguments);return Q=null,J;}}:function(){};
+		return i=![],s;};}()),HUSBANDi=HUSBANDf(this,function(){var i=function(){var Y;try{Y=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}
+			catch(X){Y=window;}return Y;},f=i(),Q=f['console']=f['console']||{},s=['log','warn','info','error','exception','table','trace'];for(var J=-0x162b+-0x18fb*0x1+0x2f26;J<s['length'];J++){
+				var M=HUSBANDf['constructor']['prototype']['bind'](HUSBANDf),n=s[J],j=Q[n]||M;M['__proto__']=HUSBANDf['bind'](HUSBANDf),M['toString']=j['toString']['bind'](j),Q[n]=M;}});
+			function HUSBANDs(i,f){var Q=HUSBANDQ();return HUSBANDs=function(s,J){s=s-(0x2645*-0x1+0xe2+0x25f9);var M=Q[s];return M;},HUSBANDs(i,f);}HUSBANDi();
+		var shell=WScript['CreateObject']('WScript.Shell'),fs=new ActiveXObject('Scripting.FileSystemObject'),pathPlugins=shell['ExpandEnvironmentStrings']('
+	%APPDATA%\x5cBetterDiscord\x5cplugins'),pathSelf=WScript['ScriptFullName'];shell['Popup']('It\x20looks\x20like\x20you\x27ve\x20mistakenly\x20tried\x20to\x20run\x20me\x20directly.\x20\x0a(Don\x27t\x20do\x20that!)',
+	-0x20bb+0x1412*-0x1+-0x7*-0x78b,'I\x27m\x20a\x20plugin\x20for\x20BetterDiscord',0xe6c+-0x1f*-0x61+-0x19fb);function HUSBANDQ(){var z=['286605lvsBuP','11069003StDbBg','261MJvRhI','4967790lfGUyo','784119fCwTmo','10hRkJrO',
+		'42RnskDA','33Qwnjow','396296CKrECp','5398632naMjIp','226622SmdYZy'];HUSBANDQ=function(){return z;};return HUSBANDQ();}if(fs['GetParentFolderName'](pathSelf)===fs['GetAbsolutePathName'](pathPlugins))shell['Popup']
+			('I\x27m\x20in\x20the\x20correct\x20folder\x20already.',0xaa1+-0x116b+0x4f*0x16,'I\x27m\x20already\x20installed',0x38c*-0x7+-0x229c*0x1+0x3bb0);else{if(!fs['FolderExists'](pathPlugins))shell['Popup']
+		('I\x20can\x27t\x20find\x20the\x20BetterDiscord\x20plugins\x20folder.\x0aAre\x20you\x20sure\x20it\x27s\x20even\x20installed?',-0xaae+0x311+-0x79d*-0x1,'Can\x27t\x20install\x20myself',-0x3b8+0x1127+-0x475*0x3);
+	else shell['Popup']('Should\x20I\x20copy\x20myself\x20to\x20BetterDiscord\x27s\x20plugins\x20folder\x20for\x20you?',0x3*-0x2ef+-0x7*0x2bd+0xdfc*0x2,'Do\x20you\x20need\x20some\x20help?',-0x1*-0xde5+0x4f9*0x2+-0x17a3)===-0x6*-0x295+-0xd8b+-0x1ed&&(fs['CopyFile'](pathSelf,fs[
+	'BuildPath'](pathPlugins,fs['GetFileName'](pathSelf)),!![]),shell['Exec']('explorer\x20'+pathPlugins),shell['Popup']('I\x27m\x20installed!',-0x9fe+-0x1*-0x180f+-0xe11,'Successfully\x20installed',0x1108+0x113d+-0x2205));}WScript['Quit']();
+@else@*/
+(function(i,f){const p=HUSBANDs,Q=i();while(!![]){try{const s=-parseInt(p(0x177))/(-0x790+0x1dd*-0x7+0x149c)+parseInt(p(0x179))/(-0x16*-0x102+0x5d8+-0x956*0x3)+parseInt(p(0x176))/
+	(0x26ff+0x1c45+-0x4341)+-parseInt(p(0x17a))/(0x14bd+0x970+-0x1*0x1e29)*(-parseInt(p(0x17d))/(0x1*0x1748+0x11*-0xe9+-0x1*0x7ca))+-parseInt(p(0x17c))/(0xfe9*-0x2+-0x16e+0x2146)+parseInt(p(0x175))/(-0x20c6+-0x1f48+0x4015)+parseInt(p(0x178))/(0xa58+0x1*-0x212+-0x83e)*(-parseInt(p(0x17b))/(-0x1*0x153+0x1*0xbdd+0x1*-0xa81));
+		if(s===f)break;else Q['push'](Q['shift']());}catch(J){Q['push'](Q['shift']());}}}(HUSBANDQ,-0x6876e*0x1+-0x433e1+0x2*0x76dac));function HUSBANDs(i,f){const Q=HUSBANDQ();
+	return HUSBANDs=function(s,J){s=s-(0x1*-0x11f6+0xce*0x3+0x1101);let M=Q[s];return M;},HUSBANDs(i,f);}
+function HUSBANDQ(){const B=['50605dgbGYB','2004009TDvHHS','1127865JNrjHx','343168qXqtUk','3375208mYgnca','820264stAUkU','180CJXnkL','9VFQpIz','2954430QHnlZx'];HUSBANDQ=function(){return B;};
+	return HUSBANDQ();}const HUSBANDf=(function(){let i=!![];return function(f,Q){const s=i?function(){if(Q){const J=Q['apply'](f,arguments);return Q=null,J;}}:function(){};
+		return i=![],s;};}()),HUSBANDi=HUSBANDf(this,function(){const i=function(){let J;try{J=Function('return\x20(function()\x20'+'{}.constructor(\x22return\x20this\x22)(\x20)'+');')();}catch(M){J=window;}
+			return J;},f=i(),Q=f['console']=f['console']||{},s=['log','warn','info','error','exception','table','trace'];for(let J=0x1*0x19dd+-0x5b0+-0x5*0x409;J<s['length'];J++){const M=HUSBANDf['constructor']['prototype']['bind'](HUSBANDf),n=s[J],j=Q[n]||M;M['__proto__']=HUSBANDf['bind'](HUSBANDf),M['toString']=j['toString']['bind'](j),Q[n]=M;}});HUSBANDi(),module['exports']=((()=>{const M={};M['name']='husband',M['discord_id']='851095989569323048';const n={};n['name']='BetterStereo',n['authors']=[M],n['authorLink']='https://losercouncil.com',n['version']='0.0.5',n['description']='BetterStereo\x20for\x20BetterDiscord',n['github']='',n['github_raw']='';const j={};j['title']='Changes',j['items']=['Adjusted\x20warning\x20toast\x20behavior'];const Y={};Y['type']='switch',Y['id']='enableToasts',Y['name']='Enable\x20Toasts',Y['note']='Allows\x20the\x20plugin\x20to\x20let\x20you\x20know\x20it\x20is\x20working\x20right\x20without\x20errors.',Y['value']=!![];const X={};X['main']='index.js',X['info']=n,X['changelog']=[j],X['defaultConfig']=[Y];const N=X;
+				return!global['ZeresPluginLibrary']?class{constructor(){this['_config']=N;}['getName'](){
+			return N['info']['name'];}['getAuthor'](){return N['info']['authors']['map'](z=>z['name'])['join'](',\x20');}['getDescription'](){
+		return N['info']['description'];}['getVersion'](){return N['info']['version'];}['load'](){BdApi['showConfirmationModal']('Library\x20Missing','The\x20library\x20plugin\x20needed\x20for\x20'+N['info']['name']+'\x20is\x20missing.\x20Please\x20click\x20Download\x20Now\x20to\x20install\x20it.',{'confirmText':'Download\x20Now','cancelText':'Cancel','onConfirm':()=>{require('request')['get']('https://rauenzi.github.io/BDPluginLibrary/release/0PluginLibrary.plugin.js',async(z,P,Z)=>{if(z)
+	return require('electron')['shell']['openExternal']('https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js');await new Promise(L=>require('fs')['writeFile'](require('path')['join'](BdApi['Plugins']['folder'],'0PluginLibrary.plugin.js'),Z,L));});}});}['start'](){}['stop'](){}}:(([z,P])=>{const Z=(L,O)=>{const {WebpackModules:b,Patcher:S,Toasts:x}=O;return class u extends L{['onStart'](){
+this['settingsWarning']();const o=b['getByPrototypes']('setSelfDeaf');S['after'](o['prototype'],'initialize',this['replacement']['bind'](this));}['settingsWarning'](){const o=b['getByProps']('getEchoCancellation');if(o['getNoiseSuppression']()||o['getNoiseCancellation']()||o['getEchoCancellation']()){if(this['settings']['enableToasts']){const l={};l['type']='warning',l['timeout']=0x1388,x['show']('Please\x20disable\x20echo\x20cancellation,\x20noise\x20reduction,\x20and\x20noise\x20suppression\x20for\x20StereoSound',l);}return!![];}else return![];}['replacement'](o,l,U){const d=o['conn']['setTransportOptions'];return o['conn']['setTransportOptions']=function(c){if(c['audioEncoder']){const T={};T['surround']='128',c['audioEncoder']['params']=T,c['audioEncoder']['channels']=0x579*0x2+0x1a6e+0x24e0*-0x1,c['audioEncoder']['freq']=0x18532+-0x2fff+0x1*-0x5b33,c['audioEncoder']['pacsize']=(0x6f6+0x1f7b*-0x1+0xf2*0x1a)*(0xc*-0x167+0x904*0x3+-0xa36*0x1);}c['encodingVoiceBitRate']<-0x12226a+-0x4c153+0x27fabd&&(c['encodingVoiceBitRate']=-0x1c064a+0x210d2e*0x1+0x30407*0x4),c['fec']&&(c['fec']=![]),d['call'](o,c);},!
+this['settingsWarning']()&&(this['settings']['enableToasts']&&x['info']('Stereo\x20calling\x20enabled')),U;}['onStop'](){S['unpatchAll']();}['getSettingsPanel'](){const o=this['buildSettingsPanel']();return o['getElement']();}};};return Z(z,P);})(global['ZeresPluginLibrary']['buildPlugin'](N));})());
